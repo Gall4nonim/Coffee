@@ -99,7 +99,6 @@ const slides = document.querySelectorAll('.slides .slide')
 const nextBtn = document.querySelector('.arrow-next')
 const prevBtn = document.querySelector('.arrow-prev')
 let currentSlide = 0
-let slideInterval = setInterval(nextSlide, 4000)
 
 function nextSlide() {
 	slides[currentSlide].classList.remove('showing')
